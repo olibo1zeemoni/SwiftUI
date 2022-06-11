@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F56A688D284A778F0041FBBA /* DispatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56A688C284A778F0041FBBA /* DispatchView.swift */; };
+		F56A688F284AA3800041FBBA /* WheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56A688E284AA3800041FBBA /* WheelView.swift */; };
+		F58407CA28464E160014F60A /* rollGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407C928464E160014F60A /* rollGameApp.swift */; };
+		F58407CC28464E160014F60A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407CB28464E160014F60A /* ContentView.swift */; };
+		F58407CE28464E190014F60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58407CD28464E190014F60A /* Assets.xcassets */; };
+		F58407D128464E190014F60A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58407D028464E190014F60A /* Preview Assets.xcassets */; };
+		F58407D828464E630014F60A /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407D728464E630014F60A /* Dice.swift */; };
+		F58407DC28464EDC0014F60A /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407DB28464EDC0014F60A /* DiceView.swift */; };
+		F58407DE284728680014F60A /* Die.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F58407DD284728680014F60A /* Die.usdz */; };
+		F58407E0284728AF0014F60A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407DF284728AF0014F60A /* Model.swift */; };
+		F58407E22847407F0014F60A /* 3DDiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407E12847407F0014F60A /* 3DDiceView.swift */; };
+		F58407E42847414F0014F60A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407E32847414F0014F60A /* Game.swift */; };
+		F58407E628474FFC0014F60A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407E528474FFC0014F60A /* SettingsView.swift */; };
+		F58407E828478F5A0014F60A /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407E728478F5A0014F60A /* PlayView.swift */; };
+		F58407EA284791760014F60A /* SixSidedDiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407E9284791760014F60A /* SixSidedDiceView.swift */; };
+		F58407EC284817240014F60A /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407EB284817240014F60A /* UserView.swift */; };
+		F58407EE284823C20014F60A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407ED284823C20014F60A /* HistoryView.swift */; };
+		F58407F52848B7BF0014F60A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58407F42848B7BF0014F60A /* CardView.swift */; };
+		F5D8059E284BC3E7008AEB27 /* AnimaitonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D8059D284BC3E7008AEB27 /* AnimaitonView.swift */; };
+		F5D805A0284BD111008AEB27 /* DragAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D8059F284BD111008AEB27 /* DragAnimationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F56A688C284A778F0041FBBA /* DispatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchView.swift; sourceTree = "<group>"; };
+		F56A688E284AA3800041FBBA /* WheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelView.swift; sourceTree = "<group>"; };
+		F58407C628464E160014F60A /* rollGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rollGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58407C928464E160014F60A /* rollGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollGameApp.swift; sourceTree = "<group>"; };
+		F58407CB28464E160014F60A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F58407CD28464E190014F60A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58407D028464E190014F60A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F58407D728464E630014F60A /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		F58407DB28464EDC0014F60A /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		F58407DD284728680014F60A /* Die.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Die.usdz; sourceTree = "<group>"; };
+		F58407DF284728AF0014F60A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F58407E12847407F0014F60A /* 3DDiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DDiceView.swift; sourceTree = "<group>"; };
+		F58407E32847414F0014F60A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F58407E528474FFC0014F60A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F58407E728478F5A0014F60A /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		F58407E9284791760014F60A /* SixSidedDiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixSidedDiceView.swift; sourceTree = "<group>"; };
+		F58407EB284817240014F60A /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		F58407ED284823C20014F60A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		F58407F42848B7BF0014F60A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F5D8059D284BC3E7008AEB27 /* AnimaitonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaitonView.swift; sourceTree = "<group>"; };
+		F5D8059F284BD111008AEB27 /* DragAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAnimationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58407C328464E160014F60A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58407BD28464E160014F60A = {
+			isa = PBXGroup;
+			children = (
+				F58407C828464E160014F60A /* rollGame */,
+				F58407C728464E160014F60A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58407C728464E160014F60A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58407C628464E160014F60A /* rollGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58407C828464E160014F60A /* rollGame */ = {
+			isa = PBXGroup;
+			children = (
+				F58407C928464E160014F60A /* rollGameApp.swift */,
+				F5D8059F284BD111008AEB27 /* DragAnimationView.swift */,
+				F58407DD284728680014F60A /* Die.usdz */,
+				F58407CB28464E160014F60A /* ContentView.swift */,
+				F58407E728478F5A0014F60A /* PlayView.swift */,
+				F58407ED284823C20014F60A /* HistoryView.swift */,
+				F58407E528474FFC0014F60A /* SettingsView.swift */,
+				F58407EB284817240014F60A /* UserView.swift */,
+				F56A688C284A778F0041FBBA /* DispatchView.swift */,
+				F56A688E284AA3800041FBBA /* WheelView.swift */,
+				F58407E9284791760014F60A /* SixSidedDiceView.swift */,
+				F58407F42848B7BF0014F60A /* CardView.swift */,
+				F5D8059D284BC3E7008AEB27 /* AnimaitonView.swift */,
+				F58407E32847414F0014F60A /* Game.swift */,
+				F58407E12847407F0014F60A /* 3DDiceView.swift */,
+				F58407DF284728AF0014F60A /* Model.swift */,
+				F58407DB28464EDC0014F60A /* DiceView.swift */,
+				F58407D728464E630014F60A /* Dice.swift */,
+				F58407CD28464E190014F60A /* Assets.xcassets */,
+				F58407CF28464E190014F60A /* Preview Content */,
+			);
+			path = rollGame;
+			sourceTree = "<group>";
+		};
+		F58407CF28464E190014F60A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F58407D028464E190014F60A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58407C528464E160014F60A /* rollGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58407D428464E190014F60A /* Build configuration list for PBXNativeTarget "rollGame" */;
+			buildPhases = (
+				F58407C228464E160014F60A /* Sources */,
+				F58407C328464E160014F60A /* Frameworks */,
+				F58407C428464E160014F60A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rollGame;
+			packageProductDependencies = (
+			);
+			productName = rollGame;
+			productReference = F58407C628464E160014F60A /* rollGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58407BE28464E160014F60A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F58407C528464E160014F60A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = F58407C128464E160014F60A /* Build configuration list for PBXProject "rollGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58407BD28464E160014F60A;
+			packageReferences = (
+			);
+			productRefGroup = F58407C728464E160014F60A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58407C528464E160014F60A /* rollGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58407C428464E160014F60A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58407DE284728680014F60A /* Die.usdz in Resources */,
+				F58407D128464E190014F60A /* Preview Assets.xcassets in Resources */,
+				F58407CE28464E190014F60A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58407C228464E160014F60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58407EC284817240014F60A /* UserView.swift in Sources */,
+				F5D805A0284BD111008AEB27 /* DragAnimationView.swift in Sources */,
+				F58407EE284823C20014F60A /* HistoryView.swift in Sources */,
+				F58407E0284728AF0014F60A /* Model.swift in Sources */,
+				F58407E628474FFC0014F60A /* SettingsView.swift in Sources */,
+				F58407CC28464E160014F60A /* ContentView.swift in Sources */,
+				F58407E42847414F0014F60A /* Game.swift in Sources */,
+				F56A688D284A778F0041FBBA /* DispatchView.swift in Sources */,
+				F58407EA284791760014F60A /* SixSidedDiceView.swift in Sources */,
+				F58407F52848B7BF0014F60A /* CardView.swift in Sources */,
+				F5D8059E284BC3E7008AEB27 /* AnimaitonView.swift in Sources */,
+				F58407E22847407F0014F60A /* 3DDiceView.swift in Sources */,
+				F58407DC28464EDC0014F60A /* DiceView.swift in Sources */,
+				F58407E828478F5A0014F60A /* PlayView.swift in Sources */,
+				F56A688F284AA3800041FBBA /* WheelView.swift in Sources */,
+				F58407D828464E630014F60A /* Dice.swift in Sources */,
+				F58407CA28464E160014F60A /* rollGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F58407D228464E190014F60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F58407D328464E190014F60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58407D528464E190014F60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rollGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B8CU8XHSY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeemoni.rollGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58407D628464E190014F60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rollGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 9B8CU8XHSY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeemoni.rollGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58407C128464E160014F60A /* Build configuration list for PBXProject "rollGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58407D228464E190014F60A /* Debug */,
+				F58407D328464E190014F60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58407D428464E190014F60A /* Build configuration list for PBXNativeTarget "rollGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58407D528464E190014F60A /* Debug */,
+				F58407D628464E190014F60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58407BE28464E160014F60A /* Project object */;
+}
